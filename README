@@ -1,0 +1,9 @@
+Before run FlaskInputApp.py, please replace the three absolute path in the header of v1.py
+
+For example, if this final_proj folder is in "path", then replace three of them into:
+
+html_Absolute_Path= "path/finalproj/Electrical Engineering and Computer Science Courses – Bulletin.html"
+png_Absolute_Path = "path/finalproj/static/foo.png"
+data_Absolute_Path = "path/finalproj/data.json"
+
+After running, go to http://127.0.0.1:5000/ to access the data.

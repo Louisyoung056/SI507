@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8"/>
+    <title>Course_Map</title>
+</head>
+
+
+<body>
+  <form action="/handle_form" method="POST">
+    <p>
+        Welcome to EECS Course Map! Please input any course number you want to search in the blanket below ...... 
+    </p>
+    
+    <p>
+        Which semester?(Currently only supports Fall 2021)
+        <select name="term">
+            <option value="Fall 2021 ">Fall 2021</option>
+            <option value="other">other</option>
+        </select>
+    </p>
+
+    <p>
+        Which Course?(e.g. input "427" course EECS 427)
+        <input name="number" type="text"/><br/><br/>
+    </p>
+
+    <input type="submit" value="Submit Form"/>
+  </form>  
+</body>
+
+</html>
