@@ -1,3 +1,11 @@
+
+Required Python packages:
+pip install bs4
+pip install flask
+pip install networkx
+pip install matplotlib
+
+
 Before run FlaskInputApp.py, please replace the three absolute path in the header of v1.py
 
 For example, if this final_proj folder is in "path", then replace three of them into:
